@@ -1,0 +1,51 @@
+/* Text */
+/* ITC Serif Gothic */
+/* The Episode Number
+Typeface: Franklin Gothic Demi (Bold)
+Width should be condensed to 80%
+
+The Episode Title: 
+Typeface: Franklin Gothic Medium Condensed (Bold)
+Width should be condensed to 95% and is all caps
+Alternatively download a free font 'SWCrawlTitle' here
+
+The Main Body of Text:
+Typeface: Franklin Gothic Demi (Bold) */
+/* R: 229 G: 177 B: 58
+
+ */
+/*
+ @font-face {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/roboto-v18-latin-regular.eot'); 
+
+}
+*/
+
+@font-face {
+  font-family: Star Jedi;
+  font-style: normal;
+  font-weight: 400;
+  src: url('./assets/fonts/Starjedi.ttf') format('truetype')
+}
+
+.jedi-font {
+  font-family: Star Jedi, serif;
+  color: rgb(229, 177, 58);
+}
+
+.gothic-font {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+body {
+  background: black;
+  color: rgb(229, 177, 58);
+  margin: 0;
+  padding: 0;
+  line-height: 16px;
+	letter-spacing: 0em;
+	font-weight: 300;
+}
