@@ -7,9 +7,16 @@ body {
   padding: 0;
   line-height: 16px;
 	letter-spacing: 0em;
-	font-weight: 300;
+  font-weight: 300;
 }
 
+
+/* Temporary border */
+table, th, td,
+.border {
+  border: 1px solid rgb(229, 177, 58);
+
+}
 /* Text */
 @font-face {
   font-family: Star Jedi;
@@ -27,8 +34,15 @@ body {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
+.is-checked {
+  color: rgb(130, 99, 31);
+}
+
 /* Header CSS */
 
 /* Checklist CSS */
 
+.tr-center {
+  text-align: center;
+}
 /* Footer CSS */
