@@ -1,14 +1,14 @@
 {
-  "main.css": "/starwars-checklist/static/css/main.8587f88d.chunk.css",
-  "main.js": "/starwars-checklist/static/js/main.f815ed7c.chunk.js",
-  "main.js.map": "/starwars-checklist/static/js/main.f815ed7c.chunk.js.map",
+  "main.css": "/starwars-checklist/static/css/main.7c4f0eb7.chunk.css",
+  "main.js": "/starwars-checklist/static/js/main.97e6b435.chunk.js",
+  "main.js.map": "/starwars-checklist/static/js/main.97e6b435.chunk.js.map",
   "static/js/1.f739feb7.chunk.js": "/starwars-checklist/static/js/1.f739feb7.chunk.js",
   "static/js/1.f739feb7.chunk.js.map": "/starwars-checklist/static/js/1.f739feb7.chunk.js.map",
   "runtime~main.js": "/starwars-checklist/static/js/runtime~main.bbad7d81.js",
   "runtime~main.js.map": "/starwars-checklist/static/js/runtime~main.bbad7d81.js.map",
-  "static/media/App.css": "/starwars-checklist/static/media/Starjedi.cc3019aa.ttf",
-  "static/css/main.8587f88d.chunk.css.map": "/starwars-checklist/static/css/main.8587f88d.chunk.css.map",
+  "static/media/App.css": "/starwars-checklist/static/media/Starjout.f72f509a.ttf",
+  "static/css/main.7c4f0eb7.chunk.css.map": "/starwars-checklist/static/css/main.7c4f0eb7.chunk.css.map",
   "index.html": "/starwars-checklist/index.html",
-  "precache-manifest.a2ef50778e37ba577c0c9a34b6a02efb.js": "/starwars-checklist/precache-manifest.a2ef50778e37ba577c0c9a34b6a02efb.js",
+  "precache-manifest.13c14cf73604fef28a6fc9f1d58f4242.js": "/starwars-checklist/precache-manifest.13c14cf73604fef28a6fc9f1d58f4242.js",
   "service-worker.js": "/starwars-checklist/service-worker.js"
 }
