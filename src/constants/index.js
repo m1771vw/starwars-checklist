@@ -7,13 +7,13 @@ export const STAR_WARS_VI = "Star Wars Episode VI – Return of the Jedi";
 export const STAR_WARS_VII = "Star Wars Episode VII – The Force Awakens"
 export const STAR_WARS_IX = "Star Wars Episode IX";
 export const starWarsMovieList = [
-    STAR_WARS_I,
-    STAR_WARS_II,
-    STAR_WARS_III,
     STAR_WARS_IV,
     STAR_WARS_V,
     STAR_WARS_VI,
-    STAR_WARS_VII,
-    STAR_WARS_IX,
+    STAR_WARS_I,
+    STAR_WARS_II,
+    STAR_WARS_III,
+    STAR_WARS_VII
 ]
+
 

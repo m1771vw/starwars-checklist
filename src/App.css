@@ -1,5 +1,4 @@
 /* Basic Defaults */
-
 body {
   background: black;
   color: rgb(229, 177, 58);
@@ -10,24 +9,33 @@ body {
   font-weight: 300;
 }
 
-
 /* Temporary border */
-table, th, td,
-.border {
+th, td {
   border: 1px solid rgb(229, 177, 58);
-
+  padding: 10px;
 }
+
 /* Text */
 @font-face {
   font-family: Star Jedi;
   font-style: normal;
   font-weight: 400;
-  src: url('./assets/fonts/Starjedi.ttf') format('truetype')
+  src: url('./assets/fonts/Starjout.ttf') format('truetype')
 }
 
 .jedi-font {
   font-family: Star Jedi, serif;
   color: rgb(229, 177, 58);
+}
+
+.header.font {
+  font-size: 48px;
+  line-height: 1.5;
+}
+
+.footer.font {
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .gothic-font {
@@ -38,11 +46,50 @@ table, th, td,
   color: rgb(130, 99, 31);
 }
 
+/* Formatting */
+.absolute-center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.overflow-auto {
+  overflow:auto;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.full-height {
+  height: 85vh;
+}
+
+@media (max-width: 587px) {
+  .full-height {
+    height: 70vh;
+  }
+}
+
+.relative {
+  position: relative;
+}
+
+.margin-lr-auto {
+  margin-left:auto;
+  margin-right:auto;
+}
+
 /* Header CSS */
 
 /* Checklist CSS */
-
 .tr-center {
   text-align: center;
 }
+
+.disabled {
+  pointer-events: none;
+}
+
 /* Footer CSS */

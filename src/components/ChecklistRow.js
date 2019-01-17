@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { string, number } from 'prop-types';
+import { string, bool } from 'prop-types';
 
 class ChecklistRow extends Component {
     state = {
@@ -13,18 +13,19 @@ class ChecklistRow extends Component {
     }
 
     render() {
-        let { movie } = this.props;
+        let { movie, disabled } = this.props;
         let { checked } = this.state;
         let { onCheckBoxClicked } = this;
         return (
             <tr>
                 <td className="tr-center">
-                    <input onChange={onCheckBoxClicked}
-                        type="checkbox"
-                        checked={checked} />
+                    <input type="checkbox"
+                        onChange={onCheckBoxClicked}
+                        checked={checked}
+                        disabled={disabled} />
                 </td>
                 <td>
-                    <div className={"gothic-font" + (checked ? " is-checked" : "")}>
+                    <div className={"gothic-font" + (checked ? " is-checked" : "") + (disabled ? " disabled" : "")}>
                         {movie}
                     </div>
                 </td>
@@ -34,7 +35,7 @@ class ChecklistRow extends Component {
 }
 
 ChecklistRow.propTypes = {
-    index: number,
+    disabled: bool,
     movie: string
 };
 
