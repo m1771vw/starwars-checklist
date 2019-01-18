@@ -4,23 +4,27 @@ self.__precacheManifest = [
     "url": "/starwars-checklist/static/media/Starjout.f72f509a.ttf"
   },
   {
+    "revision": "cc3019aa6439ef893839b8a0d6d0391d",
+    "url": "/starwars-checklist/static/media/Starjedi.cc3019aa.ttf"
+  },
+  {
     "revision": "bbad7d81b3b5d99e959f",
     "url": "/starwars-checklist/static/js/runtime~main.bbad7d81.js"
   },
   {
-    "revision": "97e6b435e2a374896f05",
-    "url": "/starwars-checklist/static/js/main.97e6b435.chunk.js"
+    "revision": "c897e55b9fd62bb52bf6",
+    "url": "/starwars-checklist/static/js/main.c897e55b.chunk.js"
   },
   {
     "revision": "f739feb7d61c48a46bed",
     "url": "/starwars-checklist/static/js/1.f739feb7.chunk.js"
   },
   {
-    "revision": "97e6b435e2a374896f05",
-    "url": "/starwars-checklist/static/css/main.7c4f0eb7.chunk.css"
+    "revision": "c897e55b9fd62bb52bf6",
+    "url": "/starwars-checklist/static/css/main.c180d3cd.chunk.css"
   },
   {
-    "revision": "4bb8a6ee4fbc6eb3942d52ff3289faf0",
+    "revision": "a8af504091bd3a6898418628ceea78de",
     "url": "/starwars-checklist/index.html"
   }
 ];
