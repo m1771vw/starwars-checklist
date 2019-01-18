@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/starwars-checklist/static/css/main.c180d3cd.chunk.css"
   },
   {
-    "revision": "a8af504091bd3a6898418628ceea78de",
+    "revision": "f7113e7a03b01ac405732b2e8611b397",
     "url": "/starwars-checklist/index.html"
   }
 ];
