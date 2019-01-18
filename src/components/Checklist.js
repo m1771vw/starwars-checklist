@@ -1,17 +1,14 @@
 import React from 'react';
 import { starWarsMovieList, STAR_WARS_IX } from '../constants/index';
 import ChecklistRow from './ChecklistRow';
-/**
- * Check list will map out the movies
- * 
- */
+
 const Checklist = () => {
     return (
         <div className="full-height relative overflow-auto">
             <table id="checklist-table" className="border margin-lr-auto absolute-center">
             <thead>
                 <tr className="border">
-                    <th>&nbsp;</th>
+                    <th></th>
                     <th>Movie Title</th>
                 </tr>
             </thead>

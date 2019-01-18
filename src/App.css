@@ -17,10 +17,22 @@ th, td {
 
 /* Text */
 @font-face {
-  font-family: Star Jedi;
+  font-family: Star Jedi Out;
   font-style: normal;
   font-weight: 400;
   src: url('./assets/fonts/Starjout.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: Star Jedi;
+  font-style: normal;
+  font-weight: 400;
+  src: url('./assets/fonts/Starjedi.ttf') format('truetype')
+}
+
+.jedi-font-out {
+  font-family: Star Jedi Out, serif;
+  color: rgb(229, 177, 58);
 }
 
 .jedi-font {
