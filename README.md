@@ -9,6 +9,7 @@ This repository is a simple Star Wars Checklist. You can also [click here to see
 - [Downloading The Project](#downloading-the-project)
 - [Setting Up The Front End](#setting-up-the-front-end)
 - [Running The Project](#running-the-project)
+- [Running The Tests](#running-the-tests)
 - [Built With](#built-with)
 
 
@@ -53,6 +54,14 @@ To confirm the frontend has started, you should see this screen.
 <p align="center">
   <img src="./src/assets/img/homepage.png" alt="Home Page"/>
 </p>
+
+### Running The Tests
+
+To run the tests, you will need to be in the `starwars-checklist` directory. 
+
+Run `npm test`.
+
+You should see the test run in the console.
 
 ## Built With
 
